@@ -11,7 +11,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div className="w-9/11 navbar container mx-auto">
+        <div className="sticky top-0 w-9/11 navbar container mx-auto">
             <div className="navbar-start">
                 <img src={Logo} alt="Dev Stack Logo"/>
             </div>
