@@ -11,7 +11,8 @@ const Navbar = () => {
 
     </>
     return (
-        <div className="sticky top-0 w-9/11 navbar container mx-auto">
+        <div className="sticky top-0 z-50 bg-white">
+            <div className="w-9/11 navbar container mx-auto">
             <div className="navbar-start">
                 <img src={Logo} alt="Dev Stack Logo"/>
             </div>
@@ -27,6 +28,8 @@ const Navbar = () => {
             </div>
                 
         </div>
+        </div>
+        
 
     );
 };
