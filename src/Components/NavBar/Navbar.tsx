@@ -11,7 +11,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div className="navbar container mx-auto">
+        <div className="w-9/11 navbar container mx-auto">
             <div className="navbar-start">
                 <img src={Logo} alt="Dev Stack Logo"/>
             </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost">Sign In</button>
-                <button className="btn btn-secondary rounded-3xl">Sign Up</button>
+                <button className="btn gradient-button rounded-3xl text-white">Sign Up</button>
 
             </div>
                 

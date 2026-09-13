@@ -1,2 +1,32 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(
+      90deg,
+      #f97316,
+      #ec4899,
+      #8b5cf6
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-button {
+    background: linear-gradient(
+      90deg,
+      #f97316,
+      #ec4899
+    );
+  }
+
+  .gradient-button:hover {
+    background: linear-gradient(
+      90deg,
+      #ea580c,
+      #db2777,
+      #7c3aed
+    );
+  }
+}
