@@ -20,8 +20,8 @@ const Navbar = () => {
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <button className="btn btn-ghost">Sign In</button>
+            <div className="navbar-end gap-2">
+                <button className="btn btn-ghost rounded-3xl">Sign In</button>
                 <button className="btn gradient-button rounded-3xl text-white">Sign Up</button>
 
             </div>
