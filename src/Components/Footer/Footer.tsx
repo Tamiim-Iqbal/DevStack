@@ -1,5 +1,3 @@
-import Logo from '../../../public/DevStack-resource/assets/logo-text.png'
-
 const Footer = () => {
   return (
     <footer className="border-t border-gray-200 bg-white">
@@ -10,7 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2">
-                <img src={Logo} alt="Dev Stack Logo" className="h-8 w-auto" />
+                <img src="DevStack-resource/assets/logo-text.png" alt="Dev Stack Logo" className="h-8 w-auto" />
             </div>
 
             <p className="mt-3 max-w-sm text-xs leading-5 text-gray-500">
